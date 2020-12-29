@@ -1,0 +1,15 @@
+﻿{
+    "name": "Remote-python",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "python3_cron",
+    "workspaceFolder": "/opt/LR",
+    "remoteUser": "user",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python"
+    ] 
+}
